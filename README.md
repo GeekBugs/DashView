@@ -1,10 +1,11 @@
 # DashView
-一个在Android上的虚线控件      
+一个在Android上的虚线控件 
+
 [![](https://jitpack.io/v/F1ReKing/DashView.svg)](https://jitpack.io/#F1ReKing/DashView)
 
 ## 预览图
 
-![](https://ws4.sinaimg.cn/large/006tNc79gy1fjq4wo3e0wj30k00zk75n.jpg)
+![](https://ws4.sinaimg.cn/large/006tNc79gy1fjq5aonenlj30a00hswf0.jpg)
 
 ## 引入
 #### Step 1. Add the JitPack repository to your build file
@@ -38,7 +39,7 @@
 ### 属性：
 
 | 属性名 | 作用 | 缺省值 |
-|---|---|---|
+|---|---|---|---|
 | dashOrientation | 虚线方向(0：水平；1：竖直) | 0 |
 | dashWidth | 虚线间距  | 4dp |
 | lineColor | 虚线颜色  | #ff888888 |
