@@ -47,7 +47,7 @@
 | lineWidth | 虚线宽度  | 4dp |
 
 ## License
-----
+
     Copyright 2017 F1ReKing. 
 
     Licensed under the Apache License, Version 2.0 (the "License");
