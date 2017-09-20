@@ -21,7 +21,7 @@
 #### Step 2. Add the dependency
 ```
 	dependencies {
-	       compile 'com.github.F1ReKing:DashView:v1.0.1'
+	       compile 'com.github.F1ReKing:DashView:v1.1'
 	}
 ```
 ## 使用
