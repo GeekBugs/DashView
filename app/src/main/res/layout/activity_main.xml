@@ -5,12 +5,112 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:orientation="vertical"
     tools:context="com.f1reking.dashview.MainActivity"
     >
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="默认虚线"
+        android:textSize="18sp"
+        />
+
     <com.f1reking.library.DashView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="横向虚线"
+        android:textSize="18sp"
+        />
+
+    <com.f1reking.library.DashView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:dashOrientation="0"
+        app:dashWidth="2dp"
+        app:lineColor="@color/colorAccent"
+        app:lineHeight="2dp"
+        app:lineWidth="4dp"
+        />
+
+    <com.f1reking.library.DashView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:dashOrientation="0"
+        app:dashWidth="2dp"
+        app:lineColor="@color/colorAccent"
+        app:lineHeight="5dp"
+        app:lineWidth="10dp"
+        />
+    <com.f1reking.library.DashView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:dashOrientation="0"
+        app:dashWidth="2dp"
+        app:lineColor="@color/colorAccent"
+        app:lineHeight="2dp"
+        app:lineWidth="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="竖向虚线"
+        android:textSize="18sp"
+        />
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        />
+        android:orientation="horizontal"
+        >
+
+        <com.f1reking.library.DashView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginLeft="10dp"
+            app:dashOrientation="1"
+            app:dashWidth="2dp"
+            app:lineColor="@color/colorAccent"
+            app:lineHeight="2dp"
+            app:lineWidth="4dp"
+            />
+        <com.f1reking.library.DashView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginLeft="10dp"
+            app:dashOrientation="1"
+            app:dashWidth="2dp"
+            app:lineColor="@color/colorAccent"
+            app:lineHeight="10dp"
+            app:lineWidth="10dp"
+            />
+        <com.f1reking.library.DashView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            app:dashOrientation="1"
+            app:dashWidth="2dp"
+            app:lineColor="@color/colorAccent"
+            app:lineHeight="2dp"
+            app:lineWidth="10dp"
+            />
+    </LinearLayout>
 
 </LinearLayout>

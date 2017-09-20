@@ -33,10 +33,10 @@ public class DashView extends View {
 
     private static final String TAG = DashView.class.getSimpleName();
 
-    private static final int DEFAULT_DASH_WIDTH = 100;
-    private static final int DEFAULT_LINE_WIDTH = 100;
-    private static final int DEFAULT_LINE_HEIGHT = 100;
-    private static final int DEFAULT_LINE_COLOR = 0x9E9E9E;
+    private static final int DEFAULT_DASH_WIDTH = 4;
+    private static final int DEFAULT_LINE_WIDTH = 4;
+    private static final int DEFAULT_LINE_HEIGHT = 2;
+    private static final int DEFAULT_LINE_COLOR = 0xff888888;
 
     //虚线方向（横向）
     private static final int ORIENTATION_HORIZONTAL = 0;
@@ -45,13 +45,13 @@ public class DashView extends View {
     //默认方向为水平方向
     private static final int DEFAULT_DASH_ORIENTATION = ORIENTATION_HORIZONTAL;
     // 间距宽度
-    private float dashWidth;
+    private float dashWidth = DEFAULT_DASH_WIDTH;
     // 虚线宽度
-    private float lineWidth;
+    private float lineWidth = DEFAULT_LINE_WIDTH;
     // 虚线高度
-    private float lineHeight;
+    private float lineHeight = DEFAULT_LINE_HEIGHT;
     //虚线颜色
-    private int lineColor;
+    private int lineColor = DEFAULT_LINE_COLOR;
     //虚线方向
     private int dashOrientation;
 
