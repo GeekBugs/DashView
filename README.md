@@ -1,5 +1,5 @@
 # DashView
-
+![](http://progressed.io/bar/100?title=build)
 [![Hex.pm](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/F1ReKing/DashView/LICENSE)
 [![](https://jitpack.io/v/F1ReKing/DashView.svg)](https://jitpack.io/#F1ReKing/DashView)   
 <p>一个在Android上的虚线控件</p>
