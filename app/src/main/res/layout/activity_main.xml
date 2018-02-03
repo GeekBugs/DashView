@@ -20,7 +20,7 @@
         android:textSize="18sp"
         />
 
-    <com.f1reking.library.DashView
+    <com.f1reking.library.dashview.DashView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -35,7 +35,7 @@
         android:textSize="18sp"
         />
 
-    <com.f1reking.library.DashView
+    <com.f1reking.library.dashview.DashView
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         app:dashOrientation="0"
@@ -45,7 +45,7 @@
         app:lineWidth="4dp"
         />
 
-    <com.f1reking.library.DashView
+    <com.f1reking.library.dashview.DashView
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -55,7 +55,7 @@
         app:lineHeight="5dp"
         app:lineWidth="10dp"
         />
-    <com.f1reking.library.DashView
+    <com.f1reking.library.dashview.DashView
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -81,7 +81,7 @@
         android:orientation="horizontal"
         >
 
-        <com.f1reking.library.DashView
+        <com.f1reking.library.dashview.DashView
             android:layout_width="wrap_content"
             android:layout_height="200dp"
             android:layout_marginLeft="10dp"
@@ -91,7 +91,7 @@
             app:lineHeight="2dp"
             app:lineWidth="4dp"
             />
-        <com.f1reking.library.DashView
+        <com.f1reking.library.dashview.DashView
             android:layout_width="wrap_content"
             android:layout_height="200dp"
             android:layout_marginLeft="10dp"
@@ -101,7 +101,7 @@
             app:lineHeight="10dp"
             app:lineWidth="10dp"
             />
-        <com.f1reking.library.DashView
+        <com.f1reking.library.dashview.DashView
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:layout_marginLeft="10dp"
