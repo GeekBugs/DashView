@@ -22,7 +22,6 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
-import com.f1reking.library.R;
 
 /**
  * author: F1ReKing
