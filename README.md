@@ -22,7 +22,7 @@
 #### Step 2. Add the dependency
 ```
 	dependencies {
-	       compile 'com.github.F1ReKing:DashView:v1.2'
+	       compile 'com.github.F1ReKing:DashView:1.2.0'
 	}
 ```
 ## 使用
@@ -39,23 +39,13 @@
 ```
 ### 属性：
 
-<<<<<<< HEAD
-| 属性名             | 作用              | 缺省值       |
-| --------------- | --------------- | --------- |
-| dashOrientation | 虚线方向(0：水平；1：竖直) | 0         |
-| dashWidth       | 虚线间距            | 4dp       |
-| lineColor       | 虚线颜色            | #ff888888 |
-| lineHeight      | 虚线高度            | 2dp       |
-| lineWidth       | 虚线宽度            | 4dp       |
-=======
-| 属性名 | 字段 | 描述 | 默认值 |
-|---|---|---|---|
-| dashOrientation | integer | 虚线方向(0：水平；1：竖直) | 0 |
-| dashWidth | dimension | 虚线间距  | 4dp |
-| lineColor | color | 虚线颜色  | #ff888888 |
-| lineHeight | dimension | 虚线高度  | 2dp |
-| lineWidth | dimension | 虚线宽度  | 4dp |
->>>>>>> origin/master
+| 属性名             | 字段        | 描述              | 默认值       |
+| --------------- | --------- | --------------- | --------- |
+| dashOrientation | integer   | 虚线方向(0：水平；1：竖直) | 0         |
+| dashWidth       | dimension | 虚线间距            | 4dp       |
+| lineColor       | color     | 虚线颜色            | #ff888888 |
+| lineHeight      | dimension | 虚线高度            | 2dp       |
+| lineWidth       | dimension | 虚线宽度            | 4dp       |
 
 ## License
 
