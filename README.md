@@ -22,9 +22,10 @@
 #### Step 2. Add the dependency
 ```
 	dependencies {
-	       compile 'com.github.F1ReKing:DashView:1.2.1'
+	       compile 'com.github.F1ReKing:DashView:x.y.z'
 	}
 ```
+Current latest version: [![](https://jitpack.io/v/F1ReKing/DashView.svg)](https://jitpack.io/#F1ReKing/DashView)
 ## 使用
 ```java
 <com.f1reking.library.dashview.DashView
